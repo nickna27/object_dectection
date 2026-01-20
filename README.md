@@ -15,15 +15,6 @@ Xây dựng hệ thống **object detection** tự động phát hiện khuôn m
 ## Dataset
 
 - **Tên dataset**: MaskFace (Face Mask Detection)
-- **Nguồn**: Kaggle – [Face Mask Detection Dataset](https://www.kaggle.com/datasets/andrewmvd/face-mask-detection)
-- **Số lượng ảnh**: 853 ảnh
-- **Số lượng đối tượng**: ~4072 bounding boxes
-- **Phân bố lớp** (ước tính):
-  - with_mask: ~50%
-  - without_mask: ~30%
-  - mask_weared_incorrect: ~20%
-- **Split**: 80% train – 20% validation (random split)
-
 ## Công nghệ sử dụng
 
 - **Framework**: Ultralytics YOLOv8 (phiên bản nano – `yolov8n.pt`)
